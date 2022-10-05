@@ -1,0 +1,17 @@
+{
+    "name": "FallbackIntent",
+    "identifier": "40GPKJI4ZR",
+    "description": "Default intent when no other intent matches",
+    "parentIntentSignature": "AMAZON.FallbackIntent",
+    "sampleUtterances": null,
+    "intentConfirmationSetting": null,
+    "intentClosingSetting": null,
+    "inputContexts": null,
+    "outputContexts": null,
+    "kendraConfiguration": null,
+    "dialogCodeHook": {
+        "enabled": true
+    },
+    "fulfillmentCodeHook": null,
+    "slotPriorities": []
+}

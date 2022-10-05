@@ -1,0 +1,31 @@
+{
+    "name": "DiningLocation",
+    "identifier": "BOTACQAZMH",
+    "description": null,
+    "slotTypeName": "DiningLocation",
+    "obfuscationSetting": null,
+    "valueElicitationSetting": {
+        "waitAndContinueSpecification": null,
+        "promptSpecification": {
+            "messageGroupsList": [
+                {
+                    "message": {
+                        "ssmlMessage": null,
+                        "customPayload": null,
+                        "plainTextMessage": {
+                            "value": "Would you like to dine, inside, or out on the patio?"
+                        },
+                        "imageResponseCard": null
+                    },
+                    "variations": null
+                }
+            ],
+            "maxRetries": 4,
+            "allowInterrupt": true
+        },
+        "slotConstraint": "Required",
+        "defaultValueSpecification": null,
+        "sampleUtterances": null
+    },
+    "multipleValuesSetting": null
+}

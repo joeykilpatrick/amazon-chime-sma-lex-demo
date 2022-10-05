@@ -1,0 +1,37 @@
+{
+  "name": "chime-sma-lex-demo",
+  "license": "ISC",
+  "author": "Presidio",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gulp",
+    "synth": "cdk synth",
+    "deploy": "npm run build && cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.37.0",
+    "aws-sdk": "^2.1074.0",
+    "cdk-amazon-chime-resources": "^0.0.58",
+    "class-transformer": "^0.5.1",
+    "class-transformer-validator": "^0.9.1",
+    "class-validator": "^0.13.2",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.93",
+    "@types/gulp": "^4.0.8",
+    "@types/gulp-zip": "^4.0.1",
+    "@types/node": "^15.14.0",
+    "@types/webpack-stream": "^3.2.12",
+    "aws-cdk": "2.37.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-zip": "^5.1.0",
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.70.0",
+    "webpack-stream": "^7.0.0"
+  }
+}

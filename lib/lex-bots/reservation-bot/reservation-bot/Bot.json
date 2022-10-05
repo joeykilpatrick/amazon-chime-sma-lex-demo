@@ -1,0 +1,10 @@
+{
+    "name": "reservation-bot",
+    "version": "DRAFT",
+    "description": "This is a basic bot that gives current wait times based on party size and dining location.",
+    "identifier": "MEUQVBEE0M",
+    "dataPrivacy": {
+        "childDirected": false
+    },
+    "idleSessionTTLInSeconds": 123
+}

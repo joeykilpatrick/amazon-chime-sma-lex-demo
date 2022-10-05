@@ -1,0 +1,31 @@
+{
+    "name": "PartySize",
+    "identifier": "FGEEWSKV7W",
+    "description": null,
+    "slotTypeName": "AMAZON.Number",
+    "obfuscationSetting": null,
+    "valueElicitationSetting": {
+        "waitAndContinueSpecification": null,
+        "promptSpecification": {
+            "messageGroupsList": [
+                {
+                    "message": {
+                        "ssmlMessage": null,
+                        "customPayload": null,
+                        "plainTextMessage": {
+                            "value": "How many will there be in your party?"
+                        },
+                        "imageResponseCard": null
+                    },
+                    "variations": null
+                }
+            ],
+            "maxRetries": 4,
+            "allowInterrupt": true
+        },
+        "slotConstraint": "Required",
+        "defaultValueSpecification": null,
+        "sampleUtterances": null
+    },
+    "multipleValuesSetting": null
+}

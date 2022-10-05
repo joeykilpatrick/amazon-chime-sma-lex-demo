@@ -1,0 +1,52 @@
+{
+    "name": "GetWaitTime",
+    "identifier": "ASAWKW2GSR",
+    "description": "This intent retrieves the wait time for a given party size and location",
+    "parentIntentSignature": null,
+    "sampleUtterances": [
+        {
+            "utterance": "There will be {PartySize} of us."
+        },
+        {
+            "utterance": "We'll have {PartySize} in our party"
+        },
+        {
+            "utterance": "{PartySize}"
+        },
+        {
+            "utterance": "There are {PartySize} of us"
+        },
+        {
+            "utterance": "There are {PartySize} in our party"
+        },
+        {
+            "utterance": "There are {PartySize} in our group"
+        }
+    ],
+    "intentClosingSetting": null,
+    "inputContexts": null,
+    "outputContexts": null,
+    "kendraConfiguration": null,
+    "dialogCodeHook": {
+        "enabled": true
+    },
+    "fulfillmentCodeHook": {
+        "postFulfillmentStatusSpecification": null,
+        "fulfillmentUpdatesSpecification": null,
+        "enabled": true
+    },
+    "slotPriorities": [
+        {
+          "priority": 1,
+          "slotName": "PartySize"
+        },
+        {
+            "priority": 2,
+            "slotName": "DiningLocation"
+        },
+        {
+            "priority": 3,
+            "slotName": "AddToWaitList"
+        }
+    ]
+}

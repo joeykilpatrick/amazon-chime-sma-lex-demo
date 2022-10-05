@@ -1,0 +1,31 @@
+# compiled output
+dist
+build
+cdk.out
+out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
+# misc
+.sass-cache
+connect.lock
+coverage
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db

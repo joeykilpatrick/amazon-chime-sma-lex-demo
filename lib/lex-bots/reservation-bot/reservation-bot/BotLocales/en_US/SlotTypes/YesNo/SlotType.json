@@ -1,0 +1,24 @@
+{
+    "name": "YesNo",
+    "identifier": "ST89SCJCBL",
+    "description": null,
+    "slotTypeValues": [
+        {
+            "synonyms": null,
+            "sampleValue": {
+                "value": "Yes"
+            }
+        },
+        {
+            "synonyms": null,
+            "sampleValue": {
+                "value": "No"
+            }
+        }
+    ],
+    "parentSlotTypeSignature": null,
+    "valueSelectionSetting": {
+        "resolutionStrategy": "ORIGINAL_VALUE",
+        "regexFilter": null
+    }
+}

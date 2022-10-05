@@ -1,0 +1,47 @@
+{
+    "name": "DiningLocation",
+    "identifier": "UELE8R8UDC",
+    "description": null,
+    "slotTypeValues": [
+        {
+            "synonyms": [
+                {
+                    "value": "inside"
+                },
+                {
+                    "value": "in the dining room"
+                },
+                {
+                    "value": "inside the restaurant"
+                }
+            ],
+            "sampleValue": {
+                "value": "inside"
+            }
+        },
+        {
+            "synonyms": [
+                {
+                    "value": "outside"
+                },
+                {
+                    "value": "on the patio"
+                },
+                {
+                    "value": "the patio"
+                },
+                {
+                    "value": "patio"
+                }
+            ],
+            "sampleValue": {
+                "value": "outside"
+            }
+        }
+    ],
+    "parentSlotTypeSignature": null,
+    "valueSelectionSetting": {
+        "resolutionStrategy": "TOP_RESOLUTION",
+        "regexFilter": null
+    }
+}
